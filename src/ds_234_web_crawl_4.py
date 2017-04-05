@@ -34,7 +34,7 @@ key = data.find("트랙 리스트")
 
 ##제목 하나 가져오기 ↑
 
-key = re.compile('title=".*금요일.*"')
+key = re.compile('title=".*목요일.*"')
 respon = key.findall(data)
 for item in respon:
     print item
